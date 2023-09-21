@@ -30,6 +30,7 @@ def login():
                     user[2] = int(user[2])
                     user[3] = int(user[3])
                     print(f'The Difference {user[3]-user[2]}$')
+                    login()
                 else:
                     print('Wrong Password!')
                     login()
